@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Where are my things</string>
+    <string name="app_label"> Search</string>
+    <string name="search_hint">Search</string>
+    <string name="search_view">Enter search</string>
+</resources>
