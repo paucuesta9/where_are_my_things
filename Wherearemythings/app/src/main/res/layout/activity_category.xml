@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.paucuesta.wherearemythings.activities.CategoryActivity">
+    tools:context="com.appengineering.wherearemythings.activities.CategoryActivity">
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabAddCategory"
@@ -24,16 +24,39 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="?attr/actionBarSize">
-
         </ListView>
 
         <ListView
             android:id="@+id/listViewCategoryItem"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="?attr/actionBarSize">
-
+            android:layout_height="wrap_content">
         </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAddNewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="25dp"
+        android:gravity="bottom"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewFirstAdd"
+            android:text="@string/add_here_category"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageViewFirstAdd"
+            android:src="@drawable/add_new"
+            android:layout_gravity="right"
+            android:layout_marginRight="90dp"/>
 
     </LinearLayout>
 
@@ -54,13 +77,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     android:background="?attr/colorPrimary"
-                    />
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
                 <com.miguelcatalan.materialsearchview.MaterialSearchView
                     android:id="@+id/search_view"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    />
+                    android:layout_height="wrap_content"/>
 
             </FrameLayout>
 

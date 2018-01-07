@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Where are my things</string>
+    <string name="app_label">Buscar</string>
+    <string name="search_hint">Buscar</string>
+    <string name="search_view">Introducir búsqueda</string>
+    <string name="take_photo">TOMAR FOTO</string>
+    <string name="quantity">"Cantidad: "</string>
+    <string name="EDIT">EDITAR</string>
+    <string name="DELETE">ELIMINAR</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_all">Eliminar todo</string>
+    <string name="add_category">Añadir categoría</string>
+    <string name="add_category_message">Escribe un nombre y toma una foto para tu nueva categoría</string>
+    <string name="category_create_name_required">Es obligatorio escribir un nombre para crear una nueva categoría</string>
+    <string name="category_edit_name_required">Es obligatorio escribir un nombre para editar esta categoría</string>
+    <string name="edit_category">Editar categoría</string>
+    <string name="edit_category_message">Cambia el nombre o toma otra foto de la categoría</string>
+    <string name="add_item">Añadir nuevo elemento</string>
+    <string name="add_item_message">"Añade un elemento para "</string>
+    <string name="edit_item">Editar elemento</string>
+    <string name="edit_item_message">Cambia los valores del elemento</string>
+    <string name="item_create_name_required">Los valores son obligatorios para crear un elemento</string>
+    <string name="item_edit_name_required">Los valores son obligatorios para editar este elemento</string>
+    <string name="add_here_category">Añade aquí una nueva categoría</string>
+    <string name="add_here_item">Añade aquí un nuevo elemento</string>
+    <string name="category_name_hint">Nombre de la categoría</string>
+    <string name="item_name_hint">Nombre del elemento</string>
+    <string name="item_description_hint">Descripción del elemento</string>
+    <string name="item_place_hint">Lugar</string>
+    <string name="add">Añadir</string>
+    <string name="save">Guardar</string>
+    <string name="category_photo_or">O copia el enlace de una foto aquí</string>
+</resources>

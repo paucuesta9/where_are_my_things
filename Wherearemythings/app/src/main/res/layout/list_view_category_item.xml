@@ -11,7 +11,7 @@
         android:layout_width="50dp"
         android:layout_height="74dp"
         android:adjustViewBounds="false"
-        android:src="@mipmap/ic_launcher_round" />
+        android:src="@mipmap/ic_launcher"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,14 +25,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:text="Holaaaaaaa"
+            android:text="Category name"
             android:textSize="18dp" />
 
         <TextView
             android:id="@+id/textViewItemsQuantity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical" />
+            android:gravity="center_vertical"
+            android:text="# items"/>
 
     </LinearLayout>
 

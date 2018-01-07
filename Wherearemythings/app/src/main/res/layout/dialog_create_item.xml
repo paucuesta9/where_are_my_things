@@ -8,32 +8,31 @@
         android:id="@+id/editTextNewItemName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:hint="Item name"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="0dp"
+        android:hint="@string/item_name_hint"
         android:inputType="textCapSentences" />
 
     <EditText
         android:id="@+id/editTextNewItemDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:hint="Item description"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/item_description_hint"
         android:inputType="textCapSentences" />
 
     <EditText
         android:id="@+id/editTextNewItemPlace"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:hint="Place"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="@string/item_place_hint"
         android:inputType="textCapSentences" />
-
-    <Button
-        android:id="@+id/btnNewItemTakePhoto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="TAKE PHOTO" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -44,15 +43,32 @@
             android:id="@+id/textViewNewItemQuantity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:text="Quantity" />
+            android:layout_marginLeft="20dp"
+            android:text="@string/quantity" />
 
         <EditText
             android:id="@+id/editTextNewItemQuantity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number" />
+            android:inputType="number"
+            android:text="1" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNewItemTakePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/take_photo"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/editTextPhotoWebItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/category_photo_or"/>
 
 </LinearLayout>

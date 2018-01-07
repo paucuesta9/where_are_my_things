@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.paucuesta.wherearemythings.activities.ItemViewActivity">
+    tools:context="com.appengineering.wherearemythings.activities.ItemViewActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,8 @@
         <ImageView
             android:id="@+id/imageViewItemActivityPhoto"
             android:layout_width="match_parent"
-            android:layout_height="175dp" />
+            android:layout_height="175dp"
+            android:src="@mipmap/ic_launcher"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,12 +57,13 @@
                     android:id="@+id/textViewItemActivityQuantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Quantity: "/>
+                    android:text="@string/quantity"/>
 
                 <TextView
                     android:id="@+id/textViewItemActivityQuantityNum"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
                     android:text="1"/>
 
             </LinearLayout>
@@ -74,17 +76,16 @@
 
                 <Button
                     android:id="@+id/buttonItemActivityEdit"
-                    android:layout_width="30dp"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
-                    android:layout_marginRight="16dp"
-                    android:text="EDIT"
+                    android:text="@string/EDIT"
                     android:background="@android:color/transparent"/>
                 <Button
                     android:id="@+id/buttonItemActivityDelete"
-                    android:layout_width="50dp"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
-                    android:text="DELETE"
+                    android:text="@string/DELETE"
                     android:layout_gravity="bottom"
                     android:background="@android:color/transparent"
                     android:textColor="#F00"/>
@@ -113,8 +114,9 @@
                     android:layout_height="?attr/actionBarSize"
                     android:background="?attr/colorPrimary"
                     android:elevation="4dp"
-                    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-                    />
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
 
                 <com.miguelcatalan.materialsearchview.MaterialSearchView
                     android:id="@+id/search_view"

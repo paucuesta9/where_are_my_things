@@ -10,5 +10,5 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/deleteAll"
-        android:title="Delete All"/>
+        android:title="@string/delete_all"/>
 </menu>

@@ -10,7 +10,7 @@
         android:layout_width="50dp"
         android:layout_height="74dp"
         android:adjustViewBounds="false"
-        android:src="@mipmap/ic_launcher_round" />
+        android:src="@mipmap/ic_launcher"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -35,19 +35,13 @@
             android:text="Holaaaaaaa2"
             android:textSize="12dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textViewItemPlace"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textViewItemPlace"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="7dp"
-                android:text="Place"
-                android:textSize="12dp" />
-        </LinearLayout>
+            android:layout_marginRight="7dp"
+            android:textSize="12dp"
+            android:text="Place"/>
 
     </LinearLayout>
 
@@ -55,7 +49,8 @@
         android:id="@+id/textViewItemQuantity"
         android:layout_width="match_parent"
         android:layout_height="74dp"
-        android:layout_gravity="bottom"
-        android:gravity="right" />
+        android:gravity="right|bottom"
+        android:layout_marginRight="5dp"
+        android:text="15"/>
 
 </LinearLayout>

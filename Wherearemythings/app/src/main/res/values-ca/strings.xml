@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Where are my things</string>
+    <string name="app_label">Buscar</string>
+    <string name="search_hint">Buscar</string>
+    <string name="search_view">Introduïr busqueda</string>
+    <string name="take_photo">FER FOTO</string>
+    <string name="quantity">"Quantitat: "</string>
+    <string name="EDIT">EDITAR</string>
+    <string name="DELETE">ELIMINAR</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="delete_all">Eliminar tot</string>
+    <string name="add_category">Afegir categoria</string>
+    <string name="add_category_message">Escriu un nom i fes una foto per la teva nova categoria</string>
+    <string name="category_create_name_required">Es obligatori escriure un nom per a crear una nova categoria</string>
+    <string name="category_edit_name_required">Es obligatori escriure un nom per editar aquesta categoria</string>
+    <string name="edit_category">Editar categoria</string>
+    <string name="edit_category_message">Canvia el nom o fes una foto de la categoria</string>
+    <string name="add_item">Afegir element</string>
+    <string name="add_item_message">"Afegeix un element per a "</string>
+    <string name="edit_item">Editar element</string>
+    <string name="edit_item_message">Canvia els valors del element</string>
+    <string name="item_create_name_required">Els valors son obligatoris per crear un element</string>
+    <string name="item_edit_name_required">Els valors son obligatoris per editar aquest element</string>
+    <string name="add_here_category">Afegeix aquí una nova categoria</string>
+    <string name="add_here_item">Afegeix aquí un nou element</string>
+    <string name="category_name_hint">Nom de la categoria</string>
+    <string name="item_name_hint">Nom del element</string>
+    <string name="item_description_hint">Descripció del element</string>
+    <string name="item_place_hint">Lloc</string>
+    <string name="add">Afegir</string>
+    <string name="save">Guardar</string>
+    <string name="category_photo_or">O copia l\'enllaç d\'una foto aquí</string>
+</resources>

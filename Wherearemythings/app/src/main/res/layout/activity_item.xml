@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.paucuesta.wherearemythings.activities.ItemActivity">
+    tools:context="com.appengineering.wherearemythings.activities.ItemActivity">
 
     <ListView
         android:id="@+id/listViewItem"
@@ -13,6 +13,29 @@
         android:paddingTop="?attr/actionBarSize">
 
     </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAddNewItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="25dp"
+        android:gravity="bottom"
+        android:visibility="invisible">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewFirstAdd"
+            android:text="@string/add_here_item"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageViewFirstAdd"
+            android:src="@drawable/add_new"
+            android:layout_gravity="right"
+            android:layout_marginRight="90dp"/>
+    </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabAddItem"
@@ -40,7 +63,8 @@
                     android:layout_height="?attr/actionBarSize"
                     android:background="?attr/colorPrimary"
                     android:elevation="4dp"
-                    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                     />
 
                 <com.miguelcatalan.materialsearchview.MaterialSearchView
